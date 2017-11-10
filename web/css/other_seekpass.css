@@ -1,0 +1,32 @@
+#seek_pass{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #28a745;
+    margin:100px 25% ;
+}
+#seek_pass h2{
+    margin: 5% 0 0 39%;
+}
+#seek_pass form{
+    padding: 50px 0 0 30%;
+}
+#seek_pass .input_pass,#seek_pass .btn_seekpass{
+    width: 60%;
+    height: 35px;
+    border: 1px solid #28a745 ;
+    border-radius: 3px;
+}
+#seek_pass .btn_seekpass{
+    background:#28a745  ;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#seek_pass .control-label{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#seek_pass .help-block{
+    height: 23px;
+}

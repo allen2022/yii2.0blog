@@ -1,0 +1,29 @@
+/*所有form表单的样式*/
+#form_php{
+    width: 70%;
+    height: 600px;
+    border: 1px solid #28a745;
+    margin: 50px auto;
+}
+#form_php form{
+   margin:10% 0 0 31%;
+}
+#form_php h2{
+   text-align: center;
+}
+#form_php .form_input,#form_php .form_input_sub{
+    width: 55%;
+    height: 30px;
+    border: 1px solid #28a745;
+    border-radius: 3px;
+}
+#form_php .form_input_sub{
+    background:#28a745 ;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.help-block{
+    height: 20px;
+    color: red;
+}

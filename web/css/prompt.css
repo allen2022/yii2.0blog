@@ -1,0 +1,9 @@
+#prompt{
+    width: 800px;
+    height: 600px;
+    margin: 60px auto;
+    border: 1px solid #cccccc;
+}
+#prompt .info{
+    margin: 300px 300px;
+}

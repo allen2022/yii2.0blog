@@ -1,0 +1,276 @@
+/*header顶部css样式*/
+#top{
+    width: 100%;
+    height: 25px;
+    background:#e7e7e7;
+
+}
+/*body高度*/
+#right_list,#left_content{
+    min-height: 2000px;
+    margin-bottom: 100px;
+}
+
+
+/*********top****start*********/
+#top .top_header{
+    margin: 0 auto;
+    width: 70%;
+    height: 25px;
+}
+#top .top_header ul li{
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#get_admin{
+    color: red;
+}
+#top .reg_login{
+    float: left;
+}
+
+#top_show{
+    width: 100%;
+    height: 90px;
+
+}
+#top_list{
+    margin: 0 auto;
+    width: 70%;
+    height: 90px;
+    border-top: 0;
+}
+#top_list .top_person{
+    width: 15%;
+}
+#top_list .top_explain{
+    height:90px ;
+    margin-left: 25%;
+    line-height: 90px;
+    text-align: center;
+    font-size: 35px;
+    font-family:inherit;
+    font-style:inherit ;
+}
+#top_list .top_tag{
+    width: 55%;
+    height: 90px;
+    margin-left: 30%;
+
+}
+#top_list .top_tag ul li{
+    float: left;
+    width: 15%;
+    margin-left: 3%;
+}
+#top_list .top_tag ul li a{
+    width: 80%;
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-family:inherit;
+    font-size:25px;
+    font-style:inherit ;
+}
+/*tag点击样式默认背景颜色*/
+#top_show .top_tag_select{
+    background: #555;
+}
+/*****top****end*********/
+/*面包屑导航*/
+#bread{
+    width: 100%;
+    height: 25px;
+    padding-left: 15%;
+    font-size: 13px;
+    border-bottom:1px solid #cccccc ;
+}
+
+#bread span{
+    margin-left: 5px;
+}
+#bread img{
+    position: relative;
+    top:3.5px;
+}
+/**********************/
+
+/*右边栏目搜索框*/
+#right_list .search{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid deepskyblue;
+}
+#right_list .key_words{
+    width: 68%;
+    height: 40px;
+    margin: 30px 0 0 30px;
+    border-radius: 3px;
+}
+#right_list .search_button{
+    height: 43px;
+    border-radius: 3px;
+    width: 19%;
+    cursor: pointer;
+    color: deepskyblue;
+}
+#right_list .search_button:hover{
+    color: green;
+}
+#right_list .key_words,#right_list .search_button{
+    border: 1px solid deepskyblue;
+}
+#right_list .update_list{
+    height:470px;
+    width: 100%;
+    margin-top: 10px;
+}
+/*最新文章*/
+#right_list .lately_update{
+    width: 100%;
+    height: 40px;
+    background: white;
+    color: #8c8c8c;
+    border-bottom: 1px  solid deepskyblue;
+}
+#right_list .lately_update h2{
+   margin-left: 30px;
+}
+#right_list .pic{
+    width: 40%;
+    background: black;
+    margin-left: 8%;
+    height:110px;
+}
+#right_list .title_list{
+    width: 45%;
+    margin:0 5% 0 2%;
+    background: red;
+    height: 90px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#right_list .pic,#right_list .title_list{
+    margin-top: 13px;
+}
+#right_list .update_list_article{
+    width: 100%;
+    height: 130px;
+}
+/*评论、热门文章、留言排行榜区*/
+#right_list .comment_hot_message_area  ul li{
+    float: left;
+    display: block;
+    height: 45px;
+    width: 49.5%;
+    border: 1px solid #cccccc;
+    border-left:none ;
+    text-align: center;
+    line-height: 45px;
+
+}
+#right_list .comment_hot_message_area ul li:hover{
+    color:white;
+    background: deepskyblue;
+}
+#right_list .change_tab{
+    clear: both;
+    width: 100%;
+    height: 390px;
+    display: none;
+}
+#right_list .selected{
+    display: block;
+}
+#right_list .zhanwei{
+    height: 1px;
+}
+/*留言*/
+#right_list .line_leave_message{
+    width: 91%;
+    height: 28px;
+    line-height: 28px;
+    clear: both;
+    margin: 10px auto 0 auto;
+    border-bottom: 1px dashed deepskyblue;
+    cursor: pointer;
+}
+#right_list .username{
+    font-weight: bold;
+}
+#right_list .leave_message{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+/*热门文章*/
+#right_list .line_hot_article,#right_list .line_hot_comment{
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #8c8c8c;
+    margin-top: 10px;
+}
+#right_list .line_hot_article a{
+    color: white;
+}
+#right_list .line_hot_article a:hover{
+    color: black;
+}
+#right_list .browse ,#right_list .comment{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+/*热评文章*/
+#right_list .line_hot_comment{
+    background: white;
+    border-bottom: 1px  solid deepskyblue;
+}
+#right_list .comment{
+    color: blue;
+}
+/*footer底部css样式*/
+#footer{
+    width: 100%;
+    height: 45px;
+    clear: both;
+    text-align: center;
+}
+
+/*form表单的error输出div样式*/
+.help-block{
+    height: 20px;
+    font-size: 15px;
+    color: red;
+
+}
+
+/*编辑器插入代码样式*/
+
+pre{
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #fdf6e3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+pre code {
+    display: block;
+    font-size:inherit;
+    white-space:pre-wrap;
+    background-color:transparent;
+    word-wrap: break-word;
+    padding:0;
+}

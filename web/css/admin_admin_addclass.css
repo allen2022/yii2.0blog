@@ -1,0 +1,32 @@
+#addClass{
+    width: 35%;
+    height: 200px;
+
+    margin: 70px auto;
+}
+#addClass h2{
+  width: 100%;
+    height: 35px;
+    text-align: center;
+
+}
+#addClass .add_class_input,#addClass .add_btn{
+    width: 30%;
+    height: 30px;
+    margin: 10px 0 0 35%;
+    border-radius: 3px;
+}
+.help-block{
+    height: 30px;
+}
+#addClass .add_class_input{
+    margin-top: 50px;
+    border: 1px solid  #0f88eb;
+    font-size: 16px;
+    text-align: center;
+}
+#addClass .add_btn{
+    color: white;
+
+    background:  #0f88eb;
+}

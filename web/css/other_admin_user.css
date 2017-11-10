@@ -1,0 +1,69 @@
+/*adminUser.php页面css样式*/
+
+/*#what_admin*/
+#what_admin{
+    height: 300px;
+    width: 100%;
+
+}
+#what_admin pre{
+    color: #8c8c8c;
+    font-size: 17px;
+    font-family: 楷体;
+}
+#what_admin h3{
+    color:#0f88eb;
+    margin-left: 40%;
+}
+/*form表单样式*/
+#form_apply_admin{
+    width: 60%;
+    height: 500px;
+    margin: 5%  auto 0 20%;
+    border: 1px solid  #28a745;
+}
+#form_apply_admin form{
+    margin: 10% 0 0 20%;
+}
+#form_apply_admin .admin_user_input,#form_apply_admin .admin_user_code_input,#form_apply_admin .submit_admin_user{
+    width: 65%;
+    height: 30px;
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+}
+.dollor{
+    color: #28a745;
+}
+#form_apply_admin .input_label{
+    width: 65%;
+    height: 25px;
+}
+/*code样式*/
+#form_apply_admin .admin_user_code_input{
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+
+}
+/*默认不显示code*/
+#form_apply_admin .code_admin_user{
+    display: none;
+}
+/*code图片*/
+#form_apply_admin .adminuser_code_img{
+    display: block;
+    width: 35%;
+    height: 30px;
+    background: #8c8c8c;
+    float: right;
+    border-radius: 3px;
+    margin-right: 31%;
+}
+/*提交表单submit*/
+#form_apply_admin .submit_admin_user{
+    background: #28a745;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+

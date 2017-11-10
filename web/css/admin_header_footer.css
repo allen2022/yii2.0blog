@@ -1,0 +1,25 @@
+#header{
+    width: 100%;
+    height: 30px;
+    background:#0f88eb;
+}
+#header .bread{
+    margin: 30px;
+}
+#header .bread a{
+    color: #333;
+}
+#header .bread span{
+    color: white;
+}
+#header .username{
+    color: white;
+    margin-right: 150px;
+}
+#header .message{
+    margin-left: 50px;
+
+}
+#header .message a{
+    color: white;
+}

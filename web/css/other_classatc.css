@@ -1,0 +1,47 @@
+#classatc{
+    width: auto;
+    height: 300px;
+}
+#classatc .article_title{
+    width: 90%;
+    height: 30px;
+    background: #0f88eb;
+    border-radius: 4px;
+    margin: 16px auto;
+    text-align: center;
+    line-height: 30px;
+    font-family: 楷体;
+    font-size: 16px;
+}
+#classatc .article_title a{
+    color: white;
+}
+#classatc .article_title:hover{
+    background: #28a745;
+}
+#classatc .empty_article{
+    width: auto;
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 26px;
+    color: #cccccc;
+}
+#classatc .all_class_li{
+    width: 15%;
+    height: 35px;
+
+    float: left;
+    margin:10px 8% ;
+    line-height: 35px;
+    border-radius: 3px;
+    background: #0f88eb;
+    text-align: center;
+}
+#classatc .all_class_li:hover{
+    background: #28a745;
+}
+#classatc .all_class_li a{
+    color: white;
+
+}

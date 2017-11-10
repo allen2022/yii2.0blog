@@ -1,0 +1,60 @@
+/*adminlogin.php样式*/
+#admin_login,#admin_login .forget_add{
+    width: 100%;
+    margin-top:60px;
+}
+#admin_login form{
+    margin-left: 35%;
+    padding-top: 5%;
+}
+#admin_login .label_admin_login{
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #24292e;
+    letter-spacing: 1px;
+}
+#admin_login .admin_login_input,#admin_login .admin_login_btn,#admin_login .submit_disable,#checkcode{
+    border-radius: 3px;
+    width: 49%;
+    border: 1px solid #28a745;
+    height: 30px;
+    font-size: 17px;
+}
+#admin_login .admin_login_btn,#admin_login .submit_disable{
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin_login .forget_add{
+    margin:15px 0 0 35%;
+    height: 30px;
+}
+#admin_login .forget_add span{
+    cursor: pointer;
+    margin-left: 3%;
+}
+#admin_login h3{
+   display: block;
+   text-align: center;
+}
+/*submit提示*/
+.submit_error{
+    width: auto;
+    height: 28px;
+    color: red;
+    font-size: 13px;
+}
+
+/*验证码*/
+#checkcode{
+    width: 28%;
+}
+#code{
+    position: relative;
+    top:20px;
+}
+.color_success{
+    color: #28a745;
+}

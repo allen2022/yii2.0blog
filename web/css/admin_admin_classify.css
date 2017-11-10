@@ -1,0 +1,46 @@
+#classify{
+    width: 40%;
+    height:500px;
+    border: 1px solid  #0f88eb;
+    border-radius: 4px;
+    margin: 50px auto;
+
+}
+#createclass-class_name,form .sure_btn{
+    width: 45%;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin: 10% 25% ;
+
+}
+
+#createclass-class_name option{
+    font-size: 18px;
+    font-family: 宋体;
+    color: #0f88eb;
+
+}
+form .sure_btn{
+    margin: 0 25%;
+    background: #0f88eb;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 5px;
+    border-radius: 4px;
+}
+#classify .add_class{
+    width: 70%;
+    height: 30px;
+    margin-top:5px;
+    text-align: right;
+    font-family: 楷体;
+    color: #0f88eb;
+}
+.help-block{
+    position: relative;
+    top: -50px;
+    left: 41%;
+    height: 20px;
+    color: red;
+}

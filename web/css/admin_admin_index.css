@@ -1,0 +1,28 @@
+#admin_select{
+    width: 50%;
+    height:500px;
+    border: 1px solid #28a745;
+    margin: 150px auto 0 auto;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+#admin_select .select_div{
+    width: 50%;
+    height: 100px;
+    background:#28a745;
+    margin: 15px auto 0 auto;
+    line-height: 100px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#admin_select .last_time{
+    color: white;
+}
+#admin_select .select_div a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+#admin_select .select_div a:hover{
+    color: blue;
+}

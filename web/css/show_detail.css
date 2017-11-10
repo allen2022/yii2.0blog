@@ -1,0 +1,338 @@
+#title{
+    width: auto;
+    height: 40px;
+}
+#article_content{
+    width: 93%;
+    margin: 0 auto;
+    font-family:inherit;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-wrap:break-word;
+}
+
+#seek_comment{
+    height: 30px;
+    width: auto;
+}
+#seek_comment span{
+    width: 135px;
+    text-align: center;
+    float: right;
+    margin:5px 30px;
+    color: white;
+    border-radius: 2px;
+    height: 32px;
+    line-height: 32px;
+    background: #ccc;
+}
+#title h2{
+    text-align: center;
+}
+/*点赞、賞、没帮助*/
+#feedback{
+    width: auto;
+    height: 130px;
+    margin-top: 50px;
+
+}
+#feedback  div{
+    width: 15%;
+    height: 35px;
+    margin: 10px 0 0 45%;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    cursor: pointer;
+    font-family:Menlo, Monaco, Consolas, "Courier New", monospace ;
+    font-size: 18px;
+}
+#feedback .agree{
+    background: #28a745;
+
+}
+#feedback .reward{
+    background: #0f88eb;
+}
+#feedback .noagree{
+    background: red;
+}
+/*投票（有帮助或者没帮助）按钮点击后--start*/
+#feedback .optioned{
+    background: #3c3c3c;
+    font-size: 16px;
+}
+
+/*投票（有帮助或者没帮助）按钮点击后--end*/
+#feedback .erweima{
+    width: auto;
+    height: 165px;
+    position: relative;
+    right: 160px;
+}
+/*评论样式*/
+#comment{
+    width:100%;
+    height: 450px;
+    margin: 20% auto 5% auto;
+}
+#comment .comment_text{
+    margin-left:1.5%;
+    resize: none;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    text-indent: 3px;
+
+
+}
+#comment .border_text{
+    border: 1px solid #28a745;
+}
+#comment h3{
+    text-align: center;
+    color: #ccc;
+}
+#comment .comment_btn{
+    width: 100px;
+    height: 30px;
+    background:#28a745 ;
+    border-radius: 3px;
+    float: right;
+    margin-right: 10%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+/*登录进行评论*/
+#reg_log_comment{
+    height: 50px;
+    width: 32%;
+    margin: 0 auto;
+}
+#reg_log_comment a{
+    margin:10px 0 0 16%;
+    width: 85px;
+    height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    line-height: 30px;
+}
+#reg_log_comment .login{
+    background: #28a745;
+}
+#reg_log_comment .reg{
+    background: #0f88eb ;
+}
+/*评论列表*/
+#comment_list{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 210px;
+    word-wrap: break-word;
+
+}
+#comment_list .article_comment{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-top: 15px;
+    min-height: 160px;
+    position:relative
+}
+#comment_list .commener{
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+}
+#comment_list .username{
+    margin-left: 15%;
+}
+#comment_list .comment_content{
+    letter-spacing: 2px;
+    text-indent: 4px;
+
+}
+#comment_list .comment_time{
+
+    margin-left: 25%;
+}
+#comment_list .username,#comment_list .comment_time{
+    color: #8c8c8c;
+}
+/*回复样式*/
+.comment_content .replay{
+    position:absolute;
+    right: 6px;
+    cursor: pointer;
+    width: 9.5%;
+    height: 30px;
+    background:#0f88eb ;
+    line-height: 30px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    display: none;
+    bottom:0px;
+    padding:0px;
+    margin:0px
+
+}
+
+#replay_form{
+    display: none;
+    height: 135px;
+}
+#comment_list form .replay_text{
+    width:80%;
+    height: 80px;
+    margin-top: 6px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid #0f88eb;
+
+}
+#comment_list .replay_btn{
+    width: 25%;
+    height: 27px;
+    border-radius: 3px;
+    margin: 3px 0 0 66%;
+
+}
+#comment_list .replay_off,#comment_list .replay_on{
+    color: white;
+    cursor: pointer;
+    background:#0f88eb;
+    margin-left: 3%;
+    border-radius: 3px;
+}
+#comment_list .comment_id_span{
+    display: none;
+}
+.hideno,.replay_none{
+    display: none;
+}
+.replay_list{
+    width: 80%;
+    min-height:125px;
+    background:#E8E8E8;
+    margin-left: 9%;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: relative;
+    font-size: 12px;
+    border: 1px solid #3c3c3c;
+}
+#comment_list .replayer{
+    color: #0f88eb;
+}
+#comment_list .time_replaytext{
+    width: 100%;
+    font-size: 12px;
+    border-bottom: 1px dashed #ccc;
+    min-height: 35px;
+    position: relative;
+}
+#comment_list .time_show,#comment_list .replay_replayer_btn{
+    position: absolute;
+    bottom: 0;
+}
+#comment_list .replay_replayer_btn{
+    right: 0;
+    width: 10%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.replay_replayer_text{
+    display: none;
+    height: 105px;
+}
+#comment_list .form_replay_replayer,#comment_list .answer_replayer_textarea{
+    width: 85%;
+    height: 55px;
+    resize: none;
+    margin:10px 5%;
+    border: 1px solid #0f88eb;
+    border-radius: 3px;
+}
+/*回复评论按钮---start*/
+#comment_list .replay_replayer_text .replay_replayer_comment,#comment_list .answer_replayer_btn{
+    width: 25%;
+    height: 25px;
+    position: relative;
+    top: -30px;
+    left: 78%;
+}
+/*
+#comment_list .replay_replayer_text .replay_replayer_comment .comment_replayer_off*/
+#comment_list .replay_replayer_text .replay_replayer_comment .comment_replayer_btn,#comment_list .answer_replayer_btn{
+   font-size: 16px;
+   background: #0f88eb;
+   color: white;
+   border-radius: 3px;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.replayer_list,.replay_id_list{
+    display: none;
+}
+/*回复评论按钮---end*/
+/*回复评论----start*/
+#comment_list .answer_replayer{
+    width: 85%;
+    min-height: 55px;
+    border-radius: 3px;
+    margin: 3px 0 10px 6%;
+    position: relative;
+    border: 1px solid #28a745;
+}
+#comment_list .answer_replayer_time_replaytext{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid #28a745;
+
+}
+#comment_list .replay_answer{
+    margin-left:86%;
+    cursor: pointer;
+    width: 25%;
+    height: 20px;
+
+}
+#comment_list .answer_replayer_text{
+    display: none;
+}
+#comment_list .answer_replayer_border{
+    border: 1px solid  #0f88eb;
+    color: #0f88eb;
+}
+#comment_list .time_answertext_border{
+    border-top:1px solid #0f88eb;
+}
+#comment_list .answer_replayer_class{
+    color:#0f88eb;
+}
+#comment_list .replay_answer{
+    display: none;
+}
+#comment_list .answer_replayer_time{
+    width: 60%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+.ajax_path,.ajax_atc_id{
+    display: none;
+}

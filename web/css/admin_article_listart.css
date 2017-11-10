@@ -1,0 +1,38 @@
+/*文章列表*/
+#list_art{
+    width: 100%;
+    height:auto;
+
+
+}
+#list_art table{
+    margin: 30px auto 0 auto ;
+
+}
+#list_art .tit{
+    width: 750px;
+}
+#list_art .tim{
+    width: 195px;
+}
+#list_art .noagree{
+    color: red;
+}
+table th,table td{
+    border: 1px solid #ccc;
+}
+table th{
+    width: 80px;
+    height: 30px;
+}
+table td{
+    height: 45px;
+    text-align: center;
+}
+/*分页样式*/
+.pagination{
+    margin: 4% 40%;
+}
+.pagination li{
+    display: inline-block;
+}
